@@ -30,6 +30,7 @@ class QueryProcessorTest {
 		}
 	}
 
+	@Test
 	void testKnowsMyName() {
 		String actual = queryProcessor.process("what is your name");
 		if (!actual.contains("Manuel")) {
