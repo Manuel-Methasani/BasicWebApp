@@ -30,4 +30,12 @@ class QueryProcessorTest {
 		}
 	}
 
+	@Test
+	void testKnowsAboutFood() {
+		String actual = queryProcessor.process("food");
+		if (!actual.contains("Pizza")) {
+			fail("Your QueryProcessor does not know what good food is.");
+		}
+	}
+
 }

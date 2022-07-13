@@ -14,6 +14,9 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "MyTeam";
         } else { // TODO extend the programm here
+            if (query.contains("food")) {
+                return "Pizza is hand down the best food ever. Thanks Italy!";
+            }
             return "";
         }
     }
