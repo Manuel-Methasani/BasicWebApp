@@ -15,7 +15,7 @@ public class QueryProcessor {
            return "My name is Manuel.";
         } else { // TODO extend the programm here
             if (query.contains("food")) {
-                return "Pizza is hand down the best food ever. Thanks Italy!";
+                return "Pizza is hands down the best food ever. Thanks Italy!";
             }
             return "";
         }
